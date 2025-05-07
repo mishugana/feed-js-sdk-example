@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Minimal example showcasing the Feed.fm JavaScript SDK (feed-media-audio-player) to play DMCA-compliant radio in the browser",
   "scripts": {
-    "start": "parcel ./src/index.html --open",
-    "build": "parcel build ./src/index.html"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "dependencies": {
     "feed-media-audio-player": "1.103.6"
